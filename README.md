@@ -78,6 +78,14 @@ npm install
 
 # Step 4 — Start the development server
 npm run dev
+
+# For run the build invironment 
+
+# Step 1 - Run the build command
+npm run build
+
+# Step 2 - View the build invironment
+npx serve dist/public
 ```
 
 Open your browser at **http://localhost:5173**
