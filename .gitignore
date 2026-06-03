@@ -1,0 +1,120 @@
+# Dependencies
+node_modules
+/.pnp
+.pnp.js
+.pnp.mjs
+.pnp.cjs
+
+# Vite build output
+dist
+dist-ssr
+*.local
+
+# Build outputs
+build
+.cache
+.vite
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+*~
+.spotlight/
+.project
+.classpath
+
+# OS metadata
+Thumbs.db
+Desktop.ini
+.directory
+*.orig
+
+# Testing
+coverage
+.nyc_output
+*.lcov
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional: Keep lock files but exclude if you want to regenerate
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Temp folders
+tmp
+temp
+.tmp
+.temp
+
+# ESLint cache
+.eslintcache
+
+# Prettier cache
+.prettiercache
+
+# Stylelint cache
+.stylelintcache
+
+# Vite specific
+*.mjs
+*.cjs
+vite.config.ts.timestamp-*
+vite.config.js.timestamp-*
+
+# Debug
+debug.log
+
+# Optional: if you have sensitive data
+.secrets
+*.key
+*.pem
+*.crt
+
+# Cypress
+cypress/screenshots
+cypress/videos
+
+# Storybook
+storybook-static
+
+# Output of 'npm run docs'
+docs/.vitepress/dist
+
+# Output of 'npm run build-storybook'
+storybook-static
