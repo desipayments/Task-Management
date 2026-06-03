@@ -104,7 +104,7 @@ Open your browser at **http://localhost:5173**
 ## Project Structure
 
 ```
-artifacts/task-templates/
+Task-Management/
 ├── public/
 │   ├── logo.png            # OneBalance brand logo
 │   └── favicon.svg         # Browser tab icon
