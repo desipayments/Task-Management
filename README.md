@@ -71,7 +71,7 @@ Download Node.js (which includes npm) from: **https://nodejs.org**
 # Step 1 — Clone or download the project (see DOWNLOAD_FROM_REPLIT.md)
 
 # Step 2 — Navigate into the app folder
-cd artifacts/task-templates
+cd Task-Management
 
 # Step 3 — Install all dependencies
 npm install
@@ -153,7 +153,7 @@ artifacts/task-templates/
 
 ## Branding & Customisation
 
-- **Logo:** `artifacts/task-templates/public/logo.png`
+- **Logo:** `Task-Management/public/logo.png`
 - **Brand name:** Search for `OneBalance` across `src/` to find all display references.
 - **Colours:** The red/black/white theme is defined in `src/index.css` (CSS variables) and `src/lib/pdf-generator.ts` (PDF colour constants).
 - **Templates:** All field definitions live in `src/data/templates.ts` — add, remove, or edit fields there.
@@ -173,15 +173,9 @@ When running locally, pass them inline:
 npm run dev
 ```
 
-Or create a `.env` file in `artifacts/task-templates/`:
+Or create a `.env` file in `Task-Management/`:
 
 ```
 PORT=5173
 BASE_PATH=/
 ```
-
----
-
-## License
-
-MIT — free to use, modify, and distribute.
