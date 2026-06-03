@@ -164,8 +164,8 @@ Task-Management/
 
 | Variable | Required | Description |
 |---|---|---|
-| `PORT` | Yes (Replit) / Optional locally | Port the dev server binds to |
-| `BASE_PATH` | Yes (Replit) / Optional locally | URL base path (use `/` locally) |
+| `PORT` | Yes / Optional locally | Port the dev server binds to |
+| `BASE_PATH` | Yes / Optional locally | URL base path (use `/` locally) |
 
 When running locally, pass them inline:
 
